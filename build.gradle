@@ -1,0 +1,16 @@
+group 'olga_test'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.github.jitpack'
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
